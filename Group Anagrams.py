@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         omg = defaultdict(list)
         for i in strs:
             omg[str(sorted(i))].append(i)
