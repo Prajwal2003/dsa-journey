@@ -1,5 +1,5 @@
 class Solution:
-    def minimumCost(self, cost: List[int]) -> int:
+    def minimumCost(self, cost: list[int]) -> int:
         l = len(cost)
         if l == 2 or l == 1:
             return sum(cost)
