@@ -18,3 +18,5 @@ def main():
     sol = Solution()
     print(sol.reverse(123))
 
+if __name__ == "__main__":
+    main()
